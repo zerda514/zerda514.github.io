@@ -1,0 +1,14 @@
+.success {
+    max-width: 600px;
+    width: 80%;
+    box-shadow: 0 0 60px 37px rgba(251, 253, 255, 0.2);
+    position: absolute;
+    background-color: #212121;
+    color: #ff8b38;
+    text-align: center;
+    padding: 35px 0;
+    font-size: 18px;
+    font-weight: bold;
+    display: none;
+    z-index: 11;
+}

@@ -1,0 +1,24 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body.preload *{
+    animation-duration: 0s !important;
+    -webkit-animation-duration: 0s !important;
+    transition:background-color 0s, opacity 0s, color 0s, width 0s, height 0s, padding 0s, margin 0s !important;
+}
+
+.overlay {
+    display: none;
+    width: 100%;
+    height: 100em;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+

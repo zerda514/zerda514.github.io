@@ -1,0 +1,115 @@
+.social {
+    background-color: #fff;
+}
+
+.social__container {
+    display: flex;
+}
+
+.social__description {
+    margin-right: 87px;
+}
+
+.description__title {
+    margin: 0;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+}
+
+.description__text {
+    margin: 0;
+    padding: 3px 2px 22px;
+    color: #86878b;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.networks {
+    display: flex;
+    align-items: center;
+}
+
+.networks__list {
+    display: flex;
+    padding: 0;
+}
+
+.network__item {
+    width: 32px;
+    height: 32px;
+    margin-right: 68px;
+    list-style-type: none;
+}
+
+.network__item:last-child {
+    margin-right: 0;
+}
+
+.network__link {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    transition: 0.5s;
+}
+
+.network__link:hover {
+    transition: 0.5s;
+}
+
+.network__link--facebook {
+    background: url("../img/social_networks/facebook.png") no-repeat center;
+}
+
+.network__link--facebook:hover {
+    background: url("../img/social_networks/facebook_hover.png") no-repeat center;
+}
+
+.network__link--twitter {
+    background: url("../img/social_networks/twitter.png") no-repeat center;
+}
+
+.network__link--twitter:hover {
+    background: url("../img/social_networks/twitter_hover.png") no-repeat center;
+}
+
+.network__link--reddit {
+    background: url("../img/social_networks/reddit.png") no-repeat center;
+}
+
+.network__link--reddit:hover {
+    background: url("../img/social_networks/reddit_hover.png") no-repeat center;
+}
+
+.network__link--telegram {
+    background: url("../img/social_networks/telegram.png") no-repeat center;
+}
+
+.network__link--telegram:hover {
+    background: url("../img/social_networks/telegram_hover.png") no-repeat center;
+}
+
+.network__link--instagram {
+    background: url("../img/social_networks/instagram.png") no-repeat center;
+}
+
+.network__link--instagram:hover {
+    background: url("../img/social_networks/instagram_hover.png") no-repeat center;
+}
+
+.network__link--youtube {
+    background: url("../img/social_networks/youtube.png") no-repeat center;
+}
+
+.network__link--youtube:hover {
+    background: url("../img/social_networks/youtube_hover.png") no-repeat center;
+}
+
+.network__link--linkedin {
+    background: url("../img/social_networks/linkedin.png") no-repeat center;
+}
+
+.network__link--linkedin:hover {
+    background: url("../img/social_networks/linkedin_hover.png") no-repeat center;
+}
