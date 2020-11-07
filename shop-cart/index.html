@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Shop cart</title>
+    <link href="styles/vendor.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header class="header">
+    <div class="header__container container">
+        <nav class="header__navbar navbar">
+            <ul class="navbar__list">
+                <li class="navbar__item"><a class="navbar__link" href="#"> Каталог</a></li>
+
+                <li class="navbar__item"><a class="navbar__link" href="#"> О магазине</a></li>
+
+                <li class="navbar__item"><a class="navbar__link" href="#"> Оплата и доставка</a></li>
+
+                <li class="navbar__item"><a class="navbar__link" href="#"> Контакты</a></li>
+            </ul>
+        </nav>
+
+        <div class="header__cart cart">
+            <button class="cart__button" type="button">Моя корзина</button>
+
+            <span class="cart__counter">0</span>
+            <section class="basket">
+                <div class="basket__container container">
+                    <div class="basket__items"></div>
+                    <div class="basket__total"></div>
+                </div>
+            </section>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="main__container container">
+        <section class="catalog">
+            <h1 class="catalog__title">Каталог товаров</h1>
+            <div class="container catalog__container">
+                <article class="catalog__card card"  data-id="1">
+                    <img class="card__img" src="images/card__1.png" alt="свитер мужской" title="свитер мужской">
+
+                    <div class="card__info info">
+                        <a href="#" class="info__category">мужская одежда</a>
+
+                        <h2 class="info__name">Свитер мужской</h2>
+                        <div class="info__prices prices">
+                            <div class="prices__item">
+                                <span class="info__price info__price--sale">15300 p</span>
+
+                                <span class="info__price info__price--actual">12900 p</span>
+                            </div>
+
+                            <button class="info__button info__button--add" type="button" aria-label="Добавить в корзину"><span class="added"></span></button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="catalog__card card bestseller"  data-id="2">
+                    <img class="card__img" src="images/card__2.png" alt="свитер мужской" title="свитер мужской">
+
+                    <div class="card__info info">
+                        <a href="#" class="info__category">мужская одежда</a>
+
+                        <h2 class="info__name">Олимпийка мужская</h2>
+                        <div class="info__prices prices">
+                            <div class="prices__item">
+                                <span class="info__price info__price--sale">10200 p</span>
+
+                                <span class="info__price info__price--actual">9000 p</span>
+                            </div>
+
+                            <button class="info__button info__button--add" type="button" aria-label="Добавить в корзину"><span class="added"></span></button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="catalog__card card"  data-id="3">
+                    <img class="card__img" src="images/card__3.png" alt="свитер мужской" title="свитер мужской">
+
+                    <div class="card__info info">
+                        <a href="#" class="info__category">мужская одежда</a>
+
+                        <h2 class="info__name">Пиджак мужской серый</h2>
+                        <div class="info__prices prices">
+                            <div class="prices__item">
+                                <span class="info__price info__price--sale hidden">15300 p</span>
+
+                                <span class="info__price info__price--actual">11000 p</span>
+                            </div>
+                            <button class="info__button info__button--add" type="button" aria-label="Добавить в корзину"><span class="added"></span></button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="catalog__card card not-available" data-id="4">
+                    <img class="card__img" src="images/card__4.png" alt="свитер мужской" title="свитер мужской">
+
+                    <div class="card__info info">
+                        <a href="#" class="info__category">мужская одежда</a>
+
+                        <h2 class="info__name">Рубашка мужская голубая</h2>
+                        <div class="info__prices prices">
+                            <div class="prices__item">
+                                <span class="info__price info__price--sale">3900 p</span>
+
+                                <span class="info__price info__price--actual">2500 p</span>
+                            </div>
+
+                            <button class="info__button info__button--add" type="button" aria-label="Добавить в корзину"><span class="added"></span></button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
+    <div class="overlay__container"></div>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/main.js"></script>
+</main>
+</body>
+</html>

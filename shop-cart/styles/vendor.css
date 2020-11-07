@@ -1,0 +1,26 @@
+
+@import "container.css";
+@import "navbar.css";
+@import "catalog.css";
+@import "options.css";
+@import "basket.css";
+@import "main.css";
+
+@font-face {
+    font-family: 'Segoe UI Semibold';
+    src: url('/fonts/SegoeUI-Semibold.ttf') format('ttf'),
+         url('/fonts/SegoeUI-Semibold.woff2') format('woff2'),
+         url('/fonts/SegoeUI-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI Semilight';
+    src: url('/fonts/SegoeUI-Semilight.ttf') format('ttf'),
+    url('/fonts/SegoeUI-Semilight.woff2') format('woff2'),
+    url('/fonts/SegoeUI-Semilight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
