@@ -1,0 +1,50 @@
+.tariff:hover > .tariff__info {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.tariff:hover .tariff__title {
+    background-color: #3394b6;
+    transition: background-color 1s;
+}
+
+.tariff:hover .tariff__text {
+    font-size: 34px;
+    transition: font-size 1s;
+}
+
+.tariff--basic:hover ~ .info--users .progress {
+    width: 10%;
+}
+
+.tariff--basic:hover ~ .info--gigabytes .progress {
+    width: 10%;
+}
+
+.tariff--basic:hover ~ .info--sites .progress {
+    width: 15%;
+}
+
+.tariff--medium:hover ~ .info--users .progress {
+    width: 35%;
+}
+
+.tariff--medium:hover ~ .info--gigabytes .progress {
+    width: 44%;
+}
+
+.tariff--medium:hover ~ .info--sites .progress {
+    width: 50%;
+}
+
+.tariff--pro:hover ~ .info--users .progress {
+    width: 100%;
+}
+
+.tariff--pro:hover ~ .info--gigabytes .progress {
+    width: 100%;
+}
+
+.tariff--pro:hover ~ .info--sites .progress {
+    width: 100%;
+}
