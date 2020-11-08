@@ -142,6 +142,7 @@
     }
 }
 
+
 @media(max-width: 560px) {
     .cover__about {
         text-align: center;
@@ -177,7 +178,7 @@
         display: flex;
     }
 
-    .nav__menu {
+    .nav__list {
         display: none;
     }
 

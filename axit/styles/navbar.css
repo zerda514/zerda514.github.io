@@ -46,7 +46,6 @@
 }
 
 .nav__menu--mob .nav__list {
-
     position: absolute;
     top: 0;
     left: 0;
@@ -57,6 +56,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 
 .nav__menu--mob .nav__item {

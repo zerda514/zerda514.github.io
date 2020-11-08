@@ -22,22 +22,6 @@ $(function() {
         $(".tabs__content").hide().eq($(this).index()).fadeIn();
     });
 
-    //меню
-
-    $('.menu').on('click', function () {
-        $('.nav__menu').fadeIn(400).addClass('nav__menu--mob');
-        $('.close').fadeIn(400);
-
-    });
-
-    /*
-    закрытие меню и модальных окон по нажатию на крестик или пункт меню
-    */
-
-    $('.close, .nav__link').on('click', function () {
-        $('.nav__menu').fadeOut(400);
-        $('.close').fadeOut(400);
-    });
 
     //центровка
     jQuery.fn.center = function () {
@@ -50,4 +34,19 @@ $(function() {
     }
 
     $('.success').center();
+
+    //меню
+    $('.menu').on('click', function () {
+        $('.nav__menu').addClass('nav__menu--mob');
+        $('.close').fadeIn(400);
+    });
+
+    /*
+    закрытие меню и модальных окон по нажатию на крестик или пункт меню
+    */
+
+    $('.close, .nav__link').on('click', function () {
+        $('.nav__menu').removeClass('nav__menu--mob');
+        $('.close').fadeOut(400);
+    });
 });
