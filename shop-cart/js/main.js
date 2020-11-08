@@ -6,7 +6,7 @@ $(document).ready(function(){
         $(this).text(price);
     });
 
-    $('.overlay__container').removeClass('overlay');
+    $('.overlay-container').removeClass('overlay');
 
     //извлечь из локального хранилица информацию о содержимом корзины и его количестве
     $('.basket__items').html(localStorage.getItem('items'));
@@ -18,7 +18,7 @@ $(document).ready(function(){
         //видимость корзины только по hover на кнопку корзины
         if($('.cart__counter').html() == 0) {
             $('.basket').removeClass('visible').addClass('hidden');
-            $('.overlay__container').removeClass('overlay');
+            $('.overlay-container').removeClass('overlay');
 
         } else {
             cardVisible();
