@@ -91,7 +91,7 @@ $(document).ready(function(){
 
         //checkout зона видна, если корзина не пуста
        $('.basket__total').removeClass('hidden').addClass('visible');
-       $('.overlay__container').removeClass('hidden');
+       $('.overlay-container').removeClass('hidden');
 
         calculate();
 
@@ -118,7 +118,7 @@ $(document).ready(function(){
         //если basket__items пустой, то удалять раздел checkout зоны и оверлей
         if ($('.basket__items').is(':empty')){
             $('.basket__total').removeClass('visible').addClass('hidden');
-            $('.overlay__container').addClass('hidden');
+            $('.overlay-container').addClass('hidden');
         }
 
         calculate();
@@ -200,9 +200,9 @@ function basketHeight() {
 function cardVisible() {
     $('.header__cart').hover(function() {
         $('.basket').addClass('visible').removeClass('hidden');
-        $('.overlay__container').addClass('overlay');
+        $('.overlay-container').addClass('overlay');
     }, function(){
         $('.basket').removeClass('visible').addClass('hidden');
-        $('.overlay__container').removeClass('overlay');
+        $('.overlay-container').removeClass('overlay');
     });
 }
