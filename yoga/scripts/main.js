@@ -128,6 +128,7 @@ $(document).ready(function(){
             $('.trial__modal-input').css('border-color', '#8e80a9').val('');
             $('.trial__success').fadeIn(400).delay(1500).fadeOut(600, function () {
                 $('.overlay').fadeOut(400);
+                $('form').find('input, select, textarea').not(".trial__modal-input--disabled").val('');
             });
 
         } else  {
@@ -144,9 +145,6 @@ $(document).ready(function(){
                 $(phone).css('border-color', 'red');
             }
         }
-
-        //сброс формы
-        $('form').trigger('reset');
 
     });
 
